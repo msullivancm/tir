@@ -15,8 +15,8 @@ class CRIAUSU(unittest.TestCase):
         atual = datetime.now()
         hoje = atual.strftime("%d/%m/%Y")
         inst.oHelper = Webapp()
-        inst.oHelper.Setup('SIGACFG',hoje,'11','02')
-        oHelper.SetLateralMenu("Usuários")
+        inst.oHelper.Setup('SIGACOM',hoje,'11','02')
+        inst.oHelper.SetLateralMenu('Atualizações > Cadastros > Produtos')
 
     def test_CRIAUSU01(self):
         '''usuarioModelo = '002351'
