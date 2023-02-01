@@ -6,7 +6,7 @@ class CRIAUSU(unittest.TestCase):
 
 	@classmethod
 	def setUpClass(inst):
-		inst.oHelper = Webapp()
+		inst.oHelper = Webapp("config.json")
 		inst.oHelper.Setup("sigacfg","31/01/2023","11","01","FRP_P12133_TESTE")
 		
 	def test_CRIAUSU_001(self):
